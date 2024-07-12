@@ -6,7 +6,7 @@ import Hero from './components/Home/Hero'
 import About from './components/About/About'
 import AboutUs from './components/About/AboutUs'
 import Offer from './components/Offerings/Offer'
-// import Accordion from './components/Accordion/Accordion'
+import Accordion from './components/Accordion/Accordion'
 
 function App() {
 
@@ -20,7 +20,7 @@ function App() {
     <About/>
     <AboutUs/>
     <Offer/>
-    {/* <Accordion/> */}
+    <Accordion/>
     </div>
     <Footer/>
     </BrowserRouter>

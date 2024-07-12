@@ -150,3 +150,80 @@
     margin:0 2rem;
     margin-top: -5rem;
 }
+.mentors{
+    margin:2rem 7rem
+}
+
+.o-h4{
+text-align: center;
+font-size: 2rem;
+}
+.m-box{
+    margin: 2rem 7rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.m-lane1{
+    display: flex;
+    justify-content: space-around;
+}
+.m-box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.o-span1{
+    background-color: rgb(0,254,254);
+    font-size: 5rem;
+}
+.m-image{
+    width: 12rem;
+}
+.m-para{
+    font-size: 7px;
+    font-weight: 700;
+    color: rgb(111, 111, 111);
+}
+
+
+.portfolio{
+    margin:6rem 5rem;
+    display: flex;
+}
+.pleft{
+    width: 35%;
+    height: 15rem;
+    background-color: rgb(192, 188, 188);
+    display: flex;
+    align-items: center;
+    border-radius: 90px;
+}
+.p-h5{
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+.p-span{
+    background-color: rgb(0,254,254);
+    font-size: 4rem;
+}
+.pright{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.p-image{
+    width:5rem;
+    height: 3rem;
+    margin:1rem
+}
+.faq{
+    height: 100vh;
+    width: 80vw;
+}
+
+.f-h4{
+    text-align: center;
+    font-size: 3rem;
+}
