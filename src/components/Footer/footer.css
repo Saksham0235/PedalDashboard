@@ -1,0 +1,45 @@
+.footer{
+    background-color:rgb(70,70,70);
+    color: white;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+}
+
+.left{
+    width:60%;
+    padding: 20px;
+    padding-left:3rem ;
+}
+
+.right{
+    width: 40%;
+    padding-top:10px ;
+}
+
+.fpara{
+    width: 39vw;
+    font-size: 20px;
+    margin-top: 1.6rem;
+    font-weight: 550;
+    text-align: start;
+}
+
+
+
+.fspan{
+    display: flex;
+    font-weight: 550;
+    margin-top: 1rem;
+}
+
+.fspan2{
+display: flex;
+margin-top: 1rem;
+}
+.fspan3{
+    display: flex;
+    text-align: start;
+    align-items: center;
+    margin-top: 1rem;
+}

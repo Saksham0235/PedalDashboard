@@ -1,0 +1,97 @@
+.container
+{
+    display: flex;
+    width: 85vw;
+    margin:1rem 7rem;
+    height: 100vh;
+}
+
+.h-left{
+    width: 62%;
+}
+.h-right{
+    width: 30%;
+}
+
+.h-heading{
+font-size: 50px;
+margin-top: 20px;
+font-weight: 800;
+width: 660px;
+}
+
+.h-para{   
+    width: 31rem;
+    line-height: 25px;
+    margin-top: 30px;
+    color: rgb(137,137,139);
+}
+
+.h-btn{
+    margin-top: 40px;
+    width: 18rem;
+    font-size: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 10px;
+    height: 3rem;
+    font-weight: 600;
+}
+.h-div{
+    width: 45.6rem;
+    display: flex;
+    height: 10rem;
+    background-color: rgb(46,41,41);
+    border-radius:20px; 
+    margin-top: 3rem;
+}
+
+
+.h-leftdiv{
+    width: 30%; 
+}
+.h-rightdiv{
+    width: 65%;
+    color: white;
+    margin: auto;
+}
+.h-minheading{
+    font-size: 3rem;
+}
+
+.h-imageleft{
+    width: 10rem;
+}
+.h-imageright{
+    width: 30.5rem;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 25px;
+}
+
+.h-updiv{
+    width:31rem ;
+    background-color: rgb(46,41,41);
+    height: 25rem;
+    border-radius: 20px;
+
+}
+.h-h4{
+    font-size:25px;
+    color: white;
+    margin-left: 1rem;
+    height: 62px;
+    width: 207px;
+}
+
+
+.h-botdiv{
+    margin-top: 45px;
+    width: 420px;
+}
+.h-botpara{
+    color: rgb(137,137,139);
+    margin-left: 20px;
+}
+

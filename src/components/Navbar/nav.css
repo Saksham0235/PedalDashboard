@@ -1,0 +1,134 @@
+header {
+    display: flex;
+    align-items: center;
+    width: 85vw;
+    height: 80px;
+    padding: 0 2rem;
+    margin:0.2rem 7rem;
+    background-color: rgb(46,41,41);
+    border-radius: 10px;
+  }
+  nav{
+    width: 70vw;
+    display: flex;
+    margin-left: 6rem;
+    flex-direction: row;
+    align-items: center ;
+    justify-content:flex-end;
+  }
+  
+  .navlink {
+    margin: auto 0;
+    width: 10rem;
+    text-decoration: none;
+    color: rgb(252, 248, 248);
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+  .navlink img{
+    width: 15rem;
+  }
+  
+  /* .navlink:hover {
+    color: rgb(156, 82, 82);
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+   */
+  .navbtn {
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  .nav-close {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .navbtn{
+    visibility: hidden;
+    opacity: 0;
+  }
+  .list-items{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+  }
+  .item{
+    margin: auto 2rem;
+    color: white;
+    font-weight: 550;
+    font-size: 20px;
+
+  }
+  .loginbtn{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    font-weight: 750;
+    font-size: 15px;
+    margin-right: -50px;
+  }
+  
+  @media screen and (max-width: 1440px) {
+    nav {
+      position: fixed;
+      top:0;
+      margin-left: 0;
+      height: 100vh;
+      width:100vw;
+      display: flex;
+      left: 0;
+      font-size: 30px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.2rem;
+      background-color: rgb(46,41,41);
+      transform: translateY(-100vh);
+    }
+    .item{
+      color: rgb(248, 244, 244);
+    }
+    .responsive_nav {
+      transform: none;
+    }
+    .nav-close {
+      visibility: visible;
+      opacity: 1;
+    }
+    .navbtn{
+      visibility: visible;
+      opacity: 1;
+    }
+    .list-items{
+      flex-direction: column;
+      height: 20rem;
+      align-items: center;
+      width: 80vw;
+    }
+    
+    header{
+      width:100vw;
+      margin:0.5rem 0rem;
+      color: wheat;
+      justify-content: space-between;
+    }
+    .navlink{
+      color: white;
+    }
+    .loginbtn{
+      margin-right: 0;
+    }
+
+  }
+  
+  
+  

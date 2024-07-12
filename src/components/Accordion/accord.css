@@ -1,0 +1,14 @@
+.accordion{
+    margin:4rem 7rem;
+    border: 1px solid grey;
+    border-radius: 30px;
+    height: 5rem;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.main{
+    display: flex;
+    width: 100vw;
+    border: 1px solid black;
+}
